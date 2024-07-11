@@ -49,3 +49,13 @@ select *user_no, user_name, score from student order by score desc limit 80000,2
 2. 深分页可以给order by和select字段添加联合索引
 3. 可以通过手动回表，强制去走索引
 4. 从业务方着手，去限制他的分页查询或者修改前后端交互（将煤业最后一条数据的id和分数传递过来）
+
+
+## datetime和timestamp的区别
+| 类型        | 占用字节 | 存储格式                     |
+| ----------- | -------- | ---------------------------- |
+| datetime    | 8        | YYYY-MM-DD HH:mm:ss           |
+| timestamp   | 4        | YYYY-MM-DD HH:mm:ss           |
+
+
+timestamp 只占 4 个字节，而且是以utc的格式储存， 它会自动检索当前时区并进行转换。 datetime以 8 个字节储存，不会进行时区的检索. 也就是说，对于timestamp来说，如果储存时的时区和检索时的时区不一样，那么拿出来的数据也不一样。 对于datetime来说，存什么拿到的就是什么。 还有一个区别就是如果存进去的是NULL，timestamp会自动储存当前时间，而 datetime会储存 NULL。

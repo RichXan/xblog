@@ -175,17 +175,17 @@ ring.Do(func(i interface{}){  // 通过Do()来遍历ring，内部实际上调用
 
 可以使用栈来解除递归
 
-![Untitled](./asset/go1_stack_recursion.png)
+![Untitled](./asset/go_interview_stack_recursion.png)
 
-![Untitled](./asset/go1_stack_fibonacci.png)
+![Untitled](./asset/go_interview_stack_fibonacci.png)
 
 ## 4.3 用Heap实现一个超时缓存
 
-![Untitled](./asset/go1_heap.png)
+![Untitled](./asset/go_interview_heap.png)
 
-![Untitled](./asset/go1_create_heap.png)
+![Untitled](./asset/go_interview_create_heap.png)
 
-![Untitled](asset/go1_delete_heap.png)
+![Untitled](asset/go_interview_delete_heap.png)
 
 把超时的元素从缓存中删除
 

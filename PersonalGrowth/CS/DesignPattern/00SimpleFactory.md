@@ -3,7 +3,7 @@ go 语言没有构造函数一说，所以一般会定义 NewXXX 函数来初始
 
 在这个 simplefactory 包中只有API 接口和 NewAPI 函数为包外可见，封装了实现细节。
 
-```goalng
+```golang
 package simplefactory
 
 type Factory interface{
