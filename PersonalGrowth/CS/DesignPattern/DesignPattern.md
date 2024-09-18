@@ -5,7 +5,7 @@ Go 语言设计模式的实例代码
 ## 创建型模式
 - [简单工厂模式（Simple Factory）](./00SimpleFactory.md)
 - [工厂方法模式（Factory Method）](./01FactoryMethod.md)
-- 抽象工厂模式（Abstract Factory）
+- [抽象工厂模式（Abstract Factory）](./02AbstractFactory.md)
 - 创建者模式（Builder）
 - 原型模式（Prototype）
 - 单例模式（Singleton）
