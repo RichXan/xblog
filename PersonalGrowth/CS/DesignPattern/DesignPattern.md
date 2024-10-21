@@ -16,8 +16,9 @@ Go 语言设计模式的实例代码
 - 代理模式（Proxy）
 - 组合模式（Composite）
 - 享元模式（Flyweight）
-- 装饰模式（Decorator）
+- [装饰模式（Decorator）](./11Decorator.go)
 - 桥模式（Bridge）
+- [函数选项模式（FunctionOption）](./25FunctionOption.go)
 
 ## 行为型模式
 - 中介者模式（Mediator）
