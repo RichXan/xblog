@@ -30,8 +30,28 @@ def parse_problem_info(file_path):
             category = "数组"
         elif "链表" in content or "Linked List" in content:
             category = "链表"
+        elif "队列" in content or "Queue" in content:
+            category = "队列"
+        elif "栈" in content or "Stack" in content:
+            category = "栈"
         elif "字符串" in content or "String" in content:
             category = "字符串"
+        elif "二叉树" in content or "Binary Tree" in content:
+            category = "二叉树"
+        elif "动态规划" in content or "Dynamic Programming" in content:
+            category = "动态规划"
+        elif "回溯" in content or "Backtracking" in content:
+            category = "回溯"
+        elif "贪心" in content or "Greedy" in content:
+            category = "贪心"
+        elif "排序" in content or "Sorting" in content:
+            category = "排序"
+        elif "堆" in content or "Heap" in content:
+            category = "堆"
+        elif "图" in content or "Graph" in content:
+            category = "图"
+        elif "动态规划" in content or "Dynamic Programming" in content:
+            category = "动态规划"
         else:
             category = "其他"
             
