@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/RichXan/KnowledgeSystem/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/RichXan/xblog/pull/73 -->
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
@@ -21,23 +21,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/RichXan/KnowledgeSystem">
+  <a href="https://github.com/RichXan/xblog">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Knowledge System</h3>
+  <h3 align="center">xan's blog</h3>
 
   <p align="center">
     cs, reading, sharing, knowledge summary, personal growth...
     <br />
-    <a href="https://github.com/RichXan/KnowledgeSystem"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RichXan/xblog"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/RichXan/KnowledgeSystem">View Demo</a>
+    <a href="https://github.com/RichXan/xblog">View Demo</a>
     ·
-    <a href="https://github.com/RichXan/KnowledgeSystem/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/RichXan/xblog/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/RichXan/KnowledgeSystem/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/RichXan/xblog/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -109,7 +109,7 @@ Just click on the category you like to read
 - [ ] Write 150 Leetcode Interview Notes
 - [ ] ...
 
-See the [open issues](https://github.com/RichXan/KnowledgeSystem/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/RichXan/xblog/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,8 +131,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/RichXan/KnowledgeSystem/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RichXan/KnowledgeSystem" alt="contrib.rocks image" />
+<a href="https://github.com/RichXan/xblog/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RichXan/xblog" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,7 +153,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Xan - rich4xan@gmail.com
 
-Project Link: [https://github.com/RichXan/KnowledgeSystem](https://github.com/RichXan/KnowledgeSystem)
+Project Link: [https://github.com/RichXan/xblog](https://github.com/RichXan/xblog)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,16 +179,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/RichXan/KnowledgeSystem.svg?style=for-the-badge
-[contributors-url]: https://github.com/RichXan/KnowledgeSystem/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/RichXan/KnowledgeSystem.svg?style=for-the-badge
-[forks-url]: https://github.com/RichXan/KnowledgeSystem/network/members
-[stars-shield]: https://img.shields.io/github/stars/RichXan/KnowledgeSystem.svg?style=for-the-badge
-[stars-url]: https://github.com/RichXan/KnowledgeSystem/stargazers
-[issues-shield]: https://img.shields.io/github/issues/RichXan/KnowledgeSystem.svg?style=for-the-badge
-[issues-url]: https://github.com/RichXan/KnowledgeSystem/issues
-[license-shield]: https://img.shields.io/github/license/RichXan/KnowledgeSystem.svg?style=for-the-badge
-[license-url]: https://github.com/RichXan/KnowledgeSystem/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/RichXan/xblog.svg?style=for-the-badge
+[contributors-url]: https://github.com/RichXan/xblog/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RichXan/xblog.svg?style=for-the-badge
+[forks-url]: https://github.com/RichXan/xblog/network/members
+[stars-shield]: https://img.shields.io/github/stars/RichXan/xblog.svg?style=for-the-badge
+[stars-url]: https://github.com/RichXan/xblog/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RichXan/xblog.svg?style=for-the-badge
+[issues-url]: https://github.com/RichXan/xblog/issues
+[license-shield]: https://img.shields.io/github/license/RichXan/xblog.svg?style=for-the-badge
+[license-url]: https://github.com/RichXan/xblog/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/RichXan
 [product-screenshot]: images/screenshot.png

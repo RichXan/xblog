@@ -15,9 +15,7 @@
   * [个人主页](/about)
 
 * 社区
-  * [Docsify官网](https://docsify.js.org/#/)
-  * [GitHub讨论区](https://github.com/RichXan/discussions)
-  * [问题反馈](https://github.com/RichXan/issues)
+  * [问题反馈](https://github.com/RichXan/xblog/issues)
 
 * 语言
   * [中文](/)
