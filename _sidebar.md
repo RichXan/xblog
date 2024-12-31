@@ -4,7 +4,7 @@
   * [Go](PersonalGrowth/CS/Go/istio.md)
 
 * 读书笔记
-  * [随笔](ReadingList/link.md)
+  * [随笔](ReadingList/README.md)
   <!-- * [技术类](/ReadingList/tech.md) -->
   <!-- * [文学类](/ReadingList/literature.md) -->
   
