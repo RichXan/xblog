@@ -16,12 +16,22 @@
 
 ## 🛠 技术栈
 
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+<p align="center">
+  <img title="Golang" alt="Golang" src="https://cdn.simpleicons.org/go" width="40" height="40" style="vertical-align:down; margin:4px"/>
+  <img title="Python" alt="Python" src="https://cdn.simpleicons.org/python" width="50" height="40" style="vertical-align:down; margin:4px"/>
+  <img title="Git" alt="Git" src="https://cdn.simpleicons.org/git" width="40" height="40" style="vertical-align:down; margin:4px"/>
+  <img title="linux" alt="linux" src="https://cdn.simpleicons.org/linux" width="40" style="vertical-align:down; margin:4px"/>	
+  <img title="ubuntu" alt="ubuntu" src="https://cdn.simpleicons.org/ubuntu" width="50" height="45" style="vertical-align:down; margin:4px"/>
+  <img title="Docker" alt="Docker" src="https://cdn.simpleicons.org/docker" width="40" height="40" style="vertical-align:down; margin:4px"/>
+  <img title="kubernetes" alt="kubernetes" src="https://cdn.simpleicons.org/kubernetes" width="40" height="40" style="vertical-align:down; margin:4px"/>
+  <img title="Mysql" alt="Mysql" src="https://cdn.simpleicons.org/mysql" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="Postgresql" alt="Postgresql" src="https://cdn.simpleicons.org/Postgresql" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="Redis" alt="Redis" src="https://cdn.simpleicons.org/redis" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="Minio" alt="Minio" src="https://cdn.simpleicons.org/minio" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="NATS" alt="NATS" src="https://cdn.simpleicons.org/nats.io" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="Gin" alt="Gin" src="https://cdn.simpleicons.org/gin" width="50" height="50" style="vertical-align:down; margin:4px"/>
+  <img title="Nginx" alt="Nginx" src="https://cdn.simpleicons.org/nginx" width="50" height="50" style="vertical-align:down; margin:4px"/>
+</p>
 
 ## 📊 GitHub 统计
 
