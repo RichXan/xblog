@@ -16,7 +16,3 @@
 
 * 社区
   * [问题反馈](https://github.com/RichXan/xblog/issues)
-
-* 语言
-  * [中文](/)
-  * [English](/en-us/)
