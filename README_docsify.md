@@ -26,13 +26,24 @@
   * 开发经验
 * [关于我](/about/)
 
-## 🛠 技术栈
-
-本博客使用以下技术构建：
-
-- [docsify](https://docsify.js.org/) - 文档网站生成器
-- Markdown - 文档编写
-- GitHub Pages - 网站托管
+## 🤺 My skills include
+<summary><b>🔨 Languages and Tools</b></summary>
+<p align="center">
+	  <img title="Golang" alt="Golang" src="https://cdn.simpleicons.org/go" width="40" height="40" style="vertical-align:down; margin:4px"/>
+    <img title="Python" alt="Python" src="https://cdn.simpleicons.org/python" width="50" height="40" style="vertical-align:down; margin:4px"/>
+    <img title="Git" alt="Git" src="https://cdn.simpleicons.org/git" width="40" height="40" style="vertical-align:down; margin:4px"/>
+    <img title="linux" alt="linux" src="https://cdn.simpleicons.org/linux" width="40" style="vertical-align:down; margin:4px"/>	
+    <img title="ubuntu" alt="ubuntu" src="https://cdn.simpleicons.org/ubuntu" width="50" height="45" style="vertical-align:down; margin:4px"/>
+    <img title="Docker" alt="Docker" src="https://cdn.simpleicons.org/docker" width="40" height="40" style="vertical-align:down; margin:4px"/>
+    <img title="kubernetes" alt="kubernetes" src="https://cdn.simpleicons.org/kubernetes" width="40" height="40" style="vertical-align:down; margin:4px"/>
+    <img title="Mysql" alt="Mysql" src="https://cdn.simpleicons.org/mysql" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="Postgresql" alt="Postgresql" src="https://cdn.simpleicons.org/Postgresql" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="Redis" alt="Redis" src="https://cdn.simpleicons.org/redis" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="Minio" alt="Minio" src="https://cdn.simpleicons.org/minio" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="NATS" alt="NATS" src="https://cdn.simpleicons.org/nats.io" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="Gin" alt="Gin" src="https://cdn.simpleicons.org/gin" width="50" height="50" style="vertical-align:down; margin:4px"/>
+    <img title="Nginx" alt="Nginx" src="https://cdn.simpleicons.org/nginx" width="50" height="50" style="vertical-align:down; margin:4px"/>
+</p>
 
 ## Feel free to contact me 😋
 <a href="https://x.com/mmakemoremoney" target="_blank"><img src="https://img.shields.io/badge/%20-%40xan-%23000000?logo=x"></a>

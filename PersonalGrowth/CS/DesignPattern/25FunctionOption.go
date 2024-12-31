@@ -1,4 +1,4 @@
-package designpattern
+package main
 
 import (
 	"fmt"

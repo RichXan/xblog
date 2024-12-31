@@ -3,22 +3,22 @@
 Go 语言设计模式的实例代码
 
 ## 创建型模式
-- [简单工厂模式（Simple Factory）](./00SimpleFactory.md)
-- [工厂方法模式（Factory Method）](./01FactoryMethod.md)
-- [抽象工厂模式（Abstract Factory）](./02AbstractFactory.md)
+- [简单工厂模式（Simple Factory）](/PersonalGrowth/CS/DesignPattern/00SimpleFactory.md)
+- [工厂方法模式（Factory Method）](/PersonalGrowth/CS/DesignPattern/01FactoryMethod.md)
+- [抽象工厂模式（Abstract Factory）](/PersonalGrowth/CS/DesignPattern/02AbstractFactory.md)
 - 创建者模式（Builder）
 - 原型模式（Prototype）
 - 单例模式（Singleton）
 
 ## 结构型模式
 - 外观模式（Facade）
-- 适配器模式（Adapter）
+- [适配器模式（Adapter）](/PersonalGrowth/CS/DesignPattern/07Adapter.md)
 - 代理模式（Proxy）
 - 组合模式（Composite）
 - 享元模式（Flyweight）
-- [装饰模式（Decorator）](./11Decorator.go)
+- [装饰模式（Decorator）](/PersonalGrowth/CS/DesignPattern/11Decorator.go)
 - 桥模式（Bridge）
-- [函数选项模式（FunctionOption）](./25FunctionOption.go)
+- [函数选项模式（FunctionOption）](/PersonalGrowth/CS/DesignPattern/25FunctionOption.go)
 
 ## 行为型模式
 - 中介者模式（Mediator）
@@ -32,6 +32,7 @@ Go 语言设计模式的实例代码
 - 解释器模式（Interpreter）
 - 职责链模式（Chain of Responsibility）
 - 访问者模式（Visitor）
+
 
 # 面向对象设计原则
 - 单一职责原则（Single Responsibility Principle）

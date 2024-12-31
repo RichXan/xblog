@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# 运行 Python 脚本更新 leetcode/README.md
+python script/update_leetcode.py
+
+# 如果 leetcode/README.md 有更改，将其添加到本次提交中
+git add PersonalGrowth/CS/Algorithm/leetcode/README.md 

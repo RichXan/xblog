@@ -1,6 +1,6 @@
 * 计算机科学
   * [设计模式](PersonalGrowth/CS/DesignPattern/DesignPattern.md)
-  * [算法](PersonalGrowth/CS/Algorithm/learn.md)
+  * [算法](PersonalGrowth/CS/Algorithm/leetcode/README.md)
   * [Go](PersonalGrowth/CS/Go/istio.md)
 
 * 读书笔记
