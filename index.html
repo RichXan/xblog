@@ -58,13 +58,6 @@
         noData: '找不到结果',
         depth: 6
       },
-      // 分页导航
-      pagination: {
-        previousText: '上一章节',
-        nextText: '下一章节',
-        crossChapter: true,
-        crossChapterText: true,
-      },
       // 字体选择
       // remoteMarkdown: {
       //   tag: 'md',
@@ -75,25 +68,6 @@
         auth: ' <a href="https://github.com/RichXan">RichXan</a>',
         pre: '<hr/>',
         style: 'text-align: center;',
-      },
-      // 代码块样式
-      plugins: [
-        function(hook) {
-          var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="https://github.com/RichXan">RichXan</a> &copy;2024.</span>',
-            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-            '</footer>'
-          ].join('');
-
-          hook.afterEach(function(html) {
-            return html + footer;
-          });
-        }
-      ],
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
       },
     }
   </script>
