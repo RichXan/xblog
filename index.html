@@ -6,52 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Personal knowledge system and blog">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- 主题 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: 'XBlog',
       repo: 'https://github.com/RichXan/xblog',
+      name: 'XBlog',
       homepage: 'README_docsify.md',
-      // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
       coverpage: true,
-      // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
       loadSidebar: true,
-      // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
       loadNavbar: true,
-      // 最大支持渲染的标题层级, 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-      subMaxLevel: 4,
-      // 设置侧边栏默认展开层级
-      sidebarDisplayLevel: 1, 
-      // 小屏设备下合并导航栏到侧边栏
-      mergeNavbar: true,
-      // 显示页面更新时间
-      formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      // 字数统计
+      // subMaxLevel: 3,
       count:{
-        countable: true,
-        fontsize: '0.9em',
-        color: 'rgb(90,90,90)',
-        language: 'chinese'
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
       },
       search: 'auto',
-      // 搜索配置
       search: {
         maxAge: 86400000,
-        paths: 'auto',
+        paths: '/',
         placeholder: '搜索',
         noData: '找不到结果',
         depth: 6
-      },
-      footer: {
-        copy: '<span>Copyright &copy; 2024</span>',
-        auth: ' <a href="https://github.com/RichXan">RichXan</a>',
-        pre: '<hr/>',
-        style: 'text-align: center;',
-      },
+        },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -67,4 +48,4 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 </body>
-</html> 
+</html>
