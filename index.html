@@ -7,6 +7,7 @@
   <meta name="description" content="Personal knowledge system and blog">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 <body>
   <div id="app">Loading...</div>
@@ -32,7 +33,17 @@
         placeholder: '搜索',
         noData: '找不到结果',
         depth: 6
-        },
+      },
+      alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+      },
+      // 底部导航
+      pagination: {
+          previousText: "上一页",
+          nextText: "下一页",
+          crossChapter: true,
+          crossChapterText: true,
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -47,5 +58,6 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>

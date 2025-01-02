@@ -30,3 +30,21 @@ func NewFactory(type int) Factory{
 }
 
 ```
+
+### 类图
+```mermaid
+classDiagram
+    Factory <|.. Huawei
+    Factory <|.. Apple
+    NewFactory ..> Factory
+
+    class Factory {
+        +Produce(product string) string
+    }
+    class Huawei {
+        +Produce(product string) string
+    }
+    class Apple {
+        +Produce(product string) string
+    }
+```

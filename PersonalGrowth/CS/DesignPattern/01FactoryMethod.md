@@ -97,3 +97,50 @@ func main() {
 }
 
 ```
+
+
+### 类图
+```mermaid
+classDiagram
+	note for Operator "方法基类"
+	note for CreateFactory "创建方法工厂类"	
+	OperatorFactory <|.. PlusOperatorFactory
+	OperatorFactory <|.. MinusOperatorFactory
+	Operator <|.. PlusOperator
+	Operator <|.. MinusOperator
+	PlusOperator *-- OperatorBase
+	MinusOperator *-- OperatorBase
+	CreateFactory ..> OperatorFactory
+
+	class Operator {
+		+SetA(int)
+		+SetB(int)
+		+Result() int
+	}
+	class OperatorBase {
+		+a int
+		+b int
+		+SetA(int)
+		+SetB(int)
+	}
+	class PlusOperator {
+		+OperatorBase
+		+Result() int
+	}
+	class MinusOperator {
+		+OperatorBase
+		+Result() int
+	}
+	class OperatorFactory {
+		+Create() Operator
+	}
+	class PlusOperatorFactory {
+		+Create() Operator
+	}
+	class MinusOperatorFactory {
+		+Create() Operator
+	}
+	class CreateFactory {
+		+CreateFactory(operator string) Operator
+	}
+```
