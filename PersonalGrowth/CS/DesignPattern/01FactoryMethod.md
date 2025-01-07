@@ -10,9 +10,14 @@ Go 中不存在继承 所以使用匿名组合来实现
 > 工厂方法是：方法 ---> 工厂
 
 ```golang
-package factorymethod
+package designpattern
 
-import "fmt"
+type OperatorType string
+
+const (
+	OperatorPlus  OperatorType = "plus"
+	OperatorMinus OperatorType = "minus"
+)
 
 // 方法
 type Operator interface {
@@ -76,26 +81,17 @@ func (f *MinusOperatorFactory) Create() Operator {
 }
 
 // 创建方法工厂类
-func CreateFactory(operator string) Operator {
+func CreateFactory(operator OperatorType) Operator {
 	switch operator {
-	case "plus":
+	case OperatorPlus:
 		factory := &PlusOperatorFactory{}
 		return factory.Create()
-	case "minus":
+	case OperatorMinus:
 		factory := &MinusOperatorFactory{}
 		return factory.Create()
 	}
 	return nil
 }
-
-func main() {
-	operatorStr := "plus"
-	operator := CreateFactory(operatorStr)
-	operator.SetA(1)
-	operator.SetB(3)
-	fmt.Print(operator.Result())
-}
-
 ```
 
 

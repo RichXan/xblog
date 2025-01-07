@@ -19,14 +19,14 @@
 现在有一个超级工厂，它负责创建实现了抽象工厂接口的工厂。抽象工厂接口一共有三个方法，分别对应创建了三个产品族，分别是手机产品族，Ipad产品族，只能音响产品族。一共又两个工厂实现了这个抽象工厂接口，分别是华为工厂和小米工厂，其中华为工厂不生产智能想音响产品族。
 
 ```golang 
-package abstractFactory
+package designpattern
 
 import "fmt"
 
 const (
-	Huawei = iota
-	Xiaomi
-	Unsupported
+	FactoryHuawei = iota
+	FactoryXiaomi
+	FactoryUnsupported
 )
 
 // 抽象工厂接口,需要能够生产手机和Ipad
@@ -42,14 +42,14 @@ type HyperFactory interface {
 }
 
 // 超级工厂实例
-type HypeFactoryImpl struct {}
+type HypeFactoryImpl struct{}
 
 // 根据给定参数创建工厂
 func (*HypeFactoryImpl) CreateFactory(typ int) AbstractFactory {
-	switch  typ{
-	case Huawei:
+	switch typ {
+	case FactoryHuawei:
 		return &HuaweiFactory{}
-	case Xiaomi:
+	case FactoryXiaomi:
 		return &XiaomiFactory{}
 	default:
 		return nil
@@ -72,7 +72,7 @@ type SmartSoundBox interface {
 }
 
 // 华为工厂,实现了抽象工厂的两个接口
-type HuaweiFactory struct {}
+type HuaweiFactory struct{}
 
 func (*HuaweiFactory) CreateCellphone() Cellphone {
 	return &HuaweiCellphone{}
@@ -89,22 +89,21 @@ func (*HuaweiFactory) CreateSmartSoundBox() SmartSoundBox {
 }
 
 // 华为手机，实现了手机接口
-type HuaweiCellphone struct {}
+type HuaweiCellphone struct{}
 
 func (*HuaweiCellphone) Call() {
 	fmt.Println("I made a call on my HuaweiCellphone")
 }
 
 // 华为Ipad
-type HuaweiIpad struct {}
+type HuaweiIpad struct{}
 
 func (*HuaweiIpad) Play() {
 	fmt.Println("I am playing with HuaweiIpad")
 }
 
-
 // 小米工厂,实现了抽象工厂的两个接口
-type XiaomiFactory struct {}
+type XiaomiFactory struct{}
 
 func (*XiaomiFactory) CreateCellphone() Cellphone {
 	return &XiaomiCellphone{}
@@ -119,21 +118,21 @@ func (*XiaomiFactory) CreateSmartSoundBox() SmartSoundBox {
 }
 
 // 小米手机，实现了手机接口
-type XiaomiCellphone struct {}
+type XiaomiCellphone struct{}
 
 func (*XiaomiCellphone) Call() {
 	fmt.Println("I made a call on my XiaomiCellphone")
 }
 
 // 小米Ipad
-type XiaomiIpad struct {}
+type XiaomiIpad struct{}
 
 func (*XiaomiIpad) Play() {
 	fmt.Println("I am playing with XiaomiIpad")
 }
 
 // 小米智能音箱
-type XiaomiSmartSoundBox struct {}
+type XiaomiSmartSoundBox struct{}
 
 func (*XiaomiSmartSoundBox) Listen() {
 	fmt.Println("I am listening with XiaomiSmartSoundBox")
