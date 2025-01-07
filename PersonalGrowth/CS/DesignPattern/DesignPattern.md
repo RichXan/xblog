@@ -6,7 +6,7 @@ Go 语言设计模式的实例代码
 - [简单工厂模式（Simple Factory）](/PersonalGrowth/CS/DesignPattern/00SimpleFactory.md)
 - [工厂方法模式（Factory Method）](/PersonalGrowth/CS/DesignPattern/01FactoryMethod.md)
 - [抽象工厂模式（Abstract Factory）](/PersonalGrowth/CS/DesignPattern/02AbstractFactory.md)
-- 创建者模式（Builder）
+- [创建者模式（Builder）](/PersonalGrowth/CS/DesignPattern/03Builder.md)
 - 原型模式（Prototype）
 - 单例模式（Singleton）
 
