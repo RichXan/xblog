@@ -126,44 +126,63 @@ classDiagram
     %% 接口定义
     class Builder {
         <<interface>>
-        +addWheel()
-        +addEngine()
-        +addDoors()
-        +getVehicle()
-        +createVehicle()
+        +AddWheel()
+        +AddEngine()
+        +AddDoors()
+        +GetVehicle() Vehicle
+        +CreateVehicle()
     }
 
+    class Vehicle {
+        <<interface>>
+        +AddPart(part string)
+    }
+
+    %% 指挥者
     class Director {
-        +build(builder Builder)
+        +Build(builder Builder)
     }
 
     %% 具体建造者
     class CarBuilder {
         -car Vehicle
-        +addWheel()
-        +addEngine()
-        +addDoors()
-        +getVehicle()
-        +createVehicle()
+        +AddWheel()
+        +AddEngine()
+        +AddDoors()
+        +GetVehicle() Vehicle
+        +CreateVehicle()
     }
 
     class TruckBuilder {
         -truck Vehicle
-        +addWheel()
-        +addEngine()
-        +addDoors()
-        +getVehicle()
-        +createVehicle()
+        +AddWheel()
+        +AddEngine()
+        +AddDoors()
+        +GetVehicle() Vehicle
+        +CreateVehicle()
+    }
+
+    %% 具体产品
+    class Car {
+        -parts []string
+        +AddPart(part string)
+    }
+
+    class Truck {
+        -parts []string
+        +AddPart(part string)
     }
 
     %% 实现关系
     Builder <|.. CarBuilder
     Builder <|.. TruckBuilder
+    Vehicle <|.. Car
+    Vehicle <|.. Truck
     Director ..> Builder : uses
 
-    %% 创建关系
-    CarBuilder ..> Car : creates
-    TruckBuilder ..> Truck : creates
+    %% 组合关系
+    CarBuilder o-- Car
+    TruckBuilder o-- Truck
 ```
 
 ## 说明
