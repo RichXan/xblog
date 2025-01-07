@@ -16,7 +16,7 @@
 所以当抽象工厂退化成生成的对象无关联的或者单一的产品种类则成为工厂方法模式。
 
 ## 场景
-现在有一个超级工厂，它负责创建实现了抽象工厂接口的工厂。抽象工厂接口一共又三个方法，分别对应创建了三个产品族，分别是手机产品族，Ipad产品族，只能音响产品族。一共又两个工厂实现了这个抽象工厂接口，分别是华为工厂和小米工厂，其中华为工厂不生产智能想音响产品族。
+现在有一个超级工厂，它负责创建实现了抽象工厂接口的工厂。抽象工厂接口一共有三个方法，分别对应创建了三个产品族，分别是手机产品族，Ipad产品族，只能音响产品族。一共又两个工厂实现了这个抽象工厂接口，分别是华为工厂和小米工厂，其中华为工厂不生产智能想音响产品族。
 
 ```golang 
 package abstractFactory
@@ -139,4 +139,103 @@ func (*XiaomiSmartSoundBox) Listen() {
 	fmt.Println("I am listening with XiaomiSmartSoundBox")
 }
 
+```
+
+### 类图
+```mermaid
+classDiagram
+    %% 常量定义
+    class Constants {
+        <<enumeration>>
+        Huawei = 0
+        Xiaomi = 1
+        Unsupported = 2
+    }
+
+    %% 工厂接口
+    class HyperFactory {
+        <<interface>>
+        +CreateFactory(typ int) AbstractFactory
+    }
+
+    class AbstractFactory {
+        <<interface>>
+        +CreateCellphone() Cellphone
+        +CreateIpad() Ipad
+        +CreateSmartSoundBox() SmartSoundBox
+    }
+
+    %% 产品接口
+    class Cellphone {
+        <<interface>>
+        +Call()
+    }
+
+    class Ipad {
+        <<interface>>
+        +Play()
+    }
+
+    class SmartSoundBox {
+        <<interface>>
+        +Listen()
+    }
+
+    %% 工厂实现
+    class HypeFactoryImpl {
+        +CreateFactory(typ int) AbstractFactory
+    }
+
+    class HuaweiFactory {
+        +CreateCellphone() Cellphone
+        +CreateIpad() Ipad
+        +CreateSmartSoundBox() SmartSoundBox
+    }
+
+    class XiaomiFactory {
+        +CreateCellphone() Cellphone
+        +CreateIpad() Ipad
+        +CreateSmartSoundBox() SmartSoundBox
+    }
+
+    %% 产品实现
+    class HuaweiCellphone {
+        +Call()
+    }
+
+    class HuaweiIpad {
+        +Play()
+    }
+
+    class XiaomiCellphone {
+        +Call()
+    }
+
+    class XiaomiIpad {
+        +Play()
+    }
+
+    class XiaomiSmartSoundBox {
+        +Listen()
+    }
+
+    %% 接口实现关系
+    HyperFactory <|.. HypeFactoryImpl
+    AbstractFactory <|.. HuaweiFactory
+    AbstractFactory <|.. XiaomiFactory
+    Cellphone <|.. HuaweiCellphone
+    Cellphone <|.. XiaomiCellphone
+    Ipad <|.. HuaweiIpad
+    Ipad <|.. XiaomiIpad
+    SmartSoundBox <|.. XiaomiSmartSoundBox
+
+    %% 工厂创建关系
+    HypeFactoryImpl ..> HuaweiFactory : CreateFactory
+    HypeFactoryImpl ..> XiaomiFactory : CreateFactory
+    
+    HuaweiFactory ..> HuaweiCellphone : CreateCellphone
+    HuaweiFactory ..> HuaweiIpad : CreateIpad
+    XiaomiFactory ..> XiaomiCellphone : CreateCellphone
+    XiaomiFactory ..> XiaomiIpad : CreateIpad
+    XiaomiFactory ..> XiaomiSmartSoundBox : CreateSmartSoundBox
 ```

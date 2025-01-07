@@ -34,17 +34,31 @@ func NewFactory(type int) Factory{
 ### 类图
 ```mermaid
 classDiagram
-    Factory <|.. Huawei
-    Factory <|.. Apple
-    NewFactory ..> Factory
-
+    %% 接口定义
     class Factory {
+        <<interface>>
         +Produce(product string) string
     }
+
+    %% 具体实现
     class Huawei {
         +Produce(product string) string
     }
+
     class Apple {
         +Produce(product string) string
     }
+
+    %% 工厂函数
+    class NewFactory {
+        <<function>>
+        +NewFactory(type int) Factory
+    }
+
+    %% 关系
+    NewFactory <.. Factory
+    Factory <|.. Huawei
+    Factory <|.. Apple
+    NewFactory ..> Huawei : creates
+    NewFactory ..> Apple : creates
 ```
