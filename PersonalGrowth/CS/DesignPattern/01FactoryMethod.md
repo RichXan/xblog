@@ -106,6 +106,7 @@ classDiagram
 	note for CreateFactory "创建方法工厂类"	
 	OperatorFactory <|.. PlusOperatorFactory
 	OperatorFactory <|.. MinusOperatorFactory
+	CreateFactory <|.. Operator
 	Operator <|.. PlusOperator
 	Operator <|.. MinusOperator
 	PlusOperator *-- OperatorBase
