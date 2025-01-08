@@ -35,6 +35,8 @@ Go 语言设计模式的实例代码
 - [访问者模式（Visitor）](/PersonalGrowth/CS/DesignPattern/24Visitor.md)
 - 空对象模式（Null Object Pattern）
 
+
+## 设计原则
 - 单一职责原则（Single Responsibility Principle）
     - 一个类只负责一项职责  
 - 开闭原则（Open/Closed Principle）
