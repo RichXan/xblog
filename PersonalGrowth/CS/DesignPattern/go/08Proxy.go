@@ -1,7 +1,7 @@
 package designpattern
 
 // Subject 定义代理和实际对象的共同接口
-type Subject interface {
+type ProxySubject interface {
 	Do() string
 }
 

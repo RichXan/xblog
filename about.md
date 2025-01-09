@@ -91,8 +91,10 @@
 
 <a href="https://x.com/mmakemoremoney" target="_blank"><img src="https://img.shields.io/badge/%20-%40xan-%23000000?logo=x"></a>
 <a href=""><img src="https://img.shields.io/badge/微信-xannygo-green?logo=wechat)"></a>
-<a href="https://github.com/RichXan"><img src="https://img.shields.io/badge/GitHub-RichXan-blue?logo=github)"></a>
+<a href="https://github.com/RichXan"><img src="https://img.shields.io/badge/GitHub-RichXan-white?logo=github)"></a>
 <a href="mailto:rich4xan@gmail.com"><img src="https://img.shields.io/badge/Email-rich4xan%40gmail.com-orange"></a>
 <a href="https://xanny.cloud/" target="_blank"><img src="https://img.shields.io/badge/Personal%20Site-xanny.cloud-red"></a>
+<a href="https://www.cnblogs.com/richxan" target="_blank"><img src="https://img.shields.io/badge/cnblogs-xannygo-blue"></a>
+<a href="https://blog.csdn.net/m0_74280172" target="_blank"><img src="https://img.shields.io/badge/CSDN-lokigo-red"></a>
 
 </div>
