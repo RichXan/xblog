@@ -1,6 +1,7 @@
 package designpattern
 
 import (
+	"fmt"
 	"net/http"
 	"testing"
 )
@@ -17,4 +18,14 @@ func TestDecorator(t *testing.T) {
 	}
 
 	srv.ListenAndServe()
+}
+
+func TestCoffee(t *testing.T) {
+	// 咖啡订单示例
+	coffee := &SimpleCoffee{}
+	coffeeWithMilk := NewMilkDecorator(coffee)
+	coffeeWithMilkAndSugar := NewSugarDecorator(coffeeWithMilk)
+
+	fmt.Printf("Cost: %.2f\n", coffeeWithMilkAndSugar.Cost())
+	fmt.Println("Description:", coffeeWithMilkAndSugar.Description())
 }

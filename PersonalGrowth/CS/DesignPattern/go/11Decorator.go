@@ -26,3 +26,51 @@ func Logger(next http.Handler) http.Handler {
 	}
 	return http.HandlerFunc(fn)
 }
+
+// 咖啡接口
+type Coffee interface {
+	Cost() float64
+	Description() string
+}
+
+type SimpleCoffee struct{}
+
+func (c *SimpleCoffee) Cost() float64 {
+	return 1.0
+}
+
+func (c *SimpleCoffee) Description() string {
+	return "Simple coffee"
+}
+
+type MilkDecorator struct {
+	coffee Coffee
+}
+
+func NewMilkDecorator(c Coffee) *MilkDecorator {
+	return &MilkDecorator{coffee: c}
+}
+
+func (d *MilkDecorator) Cost() float64 {
+	return d.coffee.Cost() + 0.5
+}
+
+func (d *MilkDecorator) Description() string {
+	return d.coffee.Description() + ", milk"
+}
+
+type SugarDecorator struct {
+	coffee Coffee
+}
+
+func NewSugarDecorator(c Coffee) *SugarDecorator {
+	return &SugarDecorator{coffee: c}
+}
+
+func (d *SugarDecorator) Cost() float64 {
+	return d.coffee.Cost() + 0.2
+}
+
+func (d *SugarDecorator) Description() string {
+	return d.coffee.Description() + ", sugar"
+}
