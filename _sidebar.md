@@ -1,10 +1,10 @@
 * 计算机科学
-  * [设计模式](PersonalGrowth/CS/DesignPattern/DesignPattern.md)
+  * [Go](PersonalGrowth/CS/Go/README.md)
   * [算法](PersonalGrowth/CS/Algorithm/leetcode/README.md)
-  * [Go](PersonalGrowth/CS/Go/istio.md)
+  * [设计模式](PersonalGrowth/CS/DesignPattern/README.md)
 
 * 读书笔记
-  * [随笔](ReadingList/README.md)
+  * [文章随笔](ReadingList/README.md)
   <!-- * [技术类](/ReadingList/tech.md) -->
   <!-- * [文学类](/ReadingList/literature.md) -->
   

@@ -64,7 +64,7 @@
 2. [Go 设计模式之工厂模式](/PersonalGrowth/CS/DesignPattern/Factory.md)
 3. [Go 设计模式之建造者模式](/PersonalGrowth/CS/DesignPattern/Builder.md)
 
-## 🎯 2024 目标
+## 🎯 2025 目标
 
 - [ ] 深入学习分布式系统
 - [ ] 掌握云原生技术栈

@@ -13,18 +13,25 @@
 
 ## 🔍 内容导航
 
-* [技术文章](/tech/)
-  * 前端开发
-  * 后端开发
-  * 数据库
-  * 系统架构
-* [学习笔记](/notes/)
-  * 读书笔记
-  * 课程笔记
-* [项目实践](/projects/)
-  * 项目展示
-  * 开发经验
-* [关于我](/about/)
+* 💻 计算机科学
+  * [Go 语言开发](/PersonalGrowth/CS/Go/README.md)
+  * [算法刷题](/PersonalGrowth/CS/Algorithm/leetcode/README.md) 
+  * [设计模式](/PersonalGrowth/CS/DesignPattern/README.md)
+
+* 📚 读书笔记
+  * [文章随笔](/ReadingList/README.md)
+  * [技术类书籍](ReadingList/tech.md)
+  * [文学类书籍](ReadingList/literature.md)
+
+* 🎯 知识分享
+  * [学习方法](sharing/learning.md)
+  * [经验总结](sharing/experience.md)
+
+* 🌱 个人成长
+  * [成长历程](growth/journey.md)
+  * [目标计划](growth/goals.md)
+
+* [👨‍💻 关于我](/about.md)
 
 ## 🤺 My skills include
 <summary><b>🔨 Languages and Tools</b></summary>

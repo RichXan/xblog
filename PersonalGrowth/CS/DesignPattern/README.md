@@ -2,6 +2,22 @@
 
 Go 语言设计模式的实例代码
 
+## 设计原则
+- 单一职责原则（Single Responsibility Principle）
+    - 一个类只负责一项职责  
+- 开闭原则（Open/Closed Principle）
+    - 对扩展开放，对修改关闭
+- 里氏替换原则（Liskov Substitution Principle）
+    - 子类可以替换父类。所有引用基类对象的地方能够透明地使用其子类的对象	
+- 依赖倒置原则（Dependency Inversion Principle）
+    - 高层模块不应该依赖低层模块，两者都应该依赖抽象。抽象不应该依赖于细节，细节应该依赖于抽象
+- 接口隔离原则（Interface Segregation Principle）
+    - 客户端不应该依赖它不需要的接口。使用多个专门的接口，而不使用单一的总接口
+- 迪米特法则（Law of Demeter）
+    - 一个类对另一个类的了解越少越好。一个软件实体应当尽可能少地与其他实体发生相互作用
+- 合成复用原则（Composite Reuse Principle）
+    - 尽量使用合成/聚合的方式，而不是继承
+
 ## 创建型模式
 - [简单工厂模式（Simple Factory）](/PersonalGrowth/CS/DesignPattern/00SimpleFactory.md)
 - [工厂方法模式（Factory Method）](/PersonalGrowth/CS/DesignPattern/01FactoryMethod.md)
@@ -35,23 +51,7 @@ Go 语言设计模式的实例代码
 - [访问者模式（Visitor）](/PersonalGrowth/CS/DesignPattern/24Visitor.md)
 - 空对象模式（Null Object Pattern）
 
-
-## 设计原则
-- 单一职责原则（Single Responsibility Principle）
-    - 一个类只负责一项职责  
-- 开闭原则（Open/Closed Principle）
-    - 对扩展开放，对修改关闭
-- 里氏替换原则（Liskov Substitution Principle）
-    - 子类可以替换父类。所有引用基类对象的地方能够透明地使用其子类的对象	
-- 依赖倒置原则（Dependency Inversion Principle）
-    - 高层模块不应该依赖低层模块，两者都应该依赖抽象。抽象不应该依赖于细节，细节应该依赖于抽象
-- 接口隔离原则（Interface Segregation Principle）
-    - 客户端不应该依赖它不需要的接口。使用多个专门的接口，而不使用单一的总接口
-- 迪米特法则（Law of Demeter）
-    - 一个类对另一个类的了解越少越好。一个软件实体应当尽可能少地与其他实体发生相互作用
-- 合成复用原则（Composite Reuse Principle）
-    - 尽量使用合成/聚合的方式，而不是继承
-
+## 应用
 开发中的使用：
 - 单例模型（初始化时getConfig, getLogger）
 - 外观模型（handler->service->dao）

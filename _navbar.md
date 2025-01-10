@@ -12,6 +12,7 @@
 * 个人链接
   * [GitHub](https://github.com/RichXan)
   * [CSDN博客](https://blog.csdn.net/m0_74280172)
+  * [cnblogs](https://www.cnblogs.com/richxan)
   * [个人主页](/about)
 
 * 社区
