@@ -2,6 +2,7 @@
   * [Go](PersonalGrowth/CS/Go/README.md)
   * [算法](PersonalGrowth/CS/Algorithm/leetcode/README.md)
   * [设计模式](PersonalGrowth/CS/DesignPattern/README.md)
+  * [基础知识](PersonalGrowth/CS/BasicKnowledge/README.md)
 
 * 读书笔记
   * [文章随笔](ReadingList/README.md)
