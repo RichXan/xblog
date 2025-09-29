@@ -10,3 +10,6 @@ build:
 
 run:
 	docker run -idt -p ${TARGET_PORT}:3000 --name ${TARGET_NAME} -v .:/docsify ${TARGET_NAME}:${TARGET_VERSION}
+
+start:
+	docsify serve .
