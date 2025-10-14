@@ -616,5 +616,53 @@
 - 添加dismiss token过期时间配置并更新相关服务逻辑
 - 协助测试集成alexa skill相关问题
 
+9.29
+Calendarloop
+  - Calendarloop产测计划生产及流程验证
+  - 新增产测成功数量统计及更新功能
+MOCREO
+  - 服务器磁盘/内存/CPU资源状态检查
+  - 更新手机号验证和设备警报短信文案
+  - 优化动态配置通知规则逻辑
+  - 修复注册账号时使用邮箱名问题
+
+9.30
+- 更新us-vobot证书
+- 添加通知消息标题和正文字段，处理安卓丢失消息内容
+- 修复切换资产后，设备数据不同步问题
+- 更新alexa同步设备信息逻辑
+- 检查设备上报数据处理逻辑，排查LW1触发refresh时，设备状态同步问题
+
+10.9
+- 在注册邮件中添加iPhone 17用户的重要通知和更新FAQ链接格式
+- 迁移相关commit到1.3.0分支
+- 获取membership时，新增phoneNumber字段返回
+- 开发对接aws sms短信发送相关功能
+- 讨论dismiss功能相关问题
+
+10.10
+- 讨论Dismiss功能方案及方案确认
+- 修复获取membership时，新增phoneNumber字段返回
+- 添加ownerPhoneNumber字段到资产信息中，优化获取资产的用户信息
+- 开发集成aws sms sdk发送短信相关功能
+
+10.11
+- Calendarloop
+    - 排查无法回收license问题
+- MOCREO    
+    - 调整dismiss功能相关逻辑
+    - 联调测试aws sms短信发送相关功能
+    - 修复refresh事件冷却间隔事件不生效问题
+    - 更新生产环境部署方式，使用gitlab仓库部署服务
+    - 修复odoo相关bug
+
+10.13
+- Dismiss功能逻辑调整即验证
+- 调研aws sms短信额度查询、即通知问题
+- 排查sms短信发送重复问题
+- 排查设备型号绑定时与备案时不一致问题
+- 修复refresh事件冷却间隔不生效问题
+- 修复odoo相关bug
+
 
 - 重复邮件处理
